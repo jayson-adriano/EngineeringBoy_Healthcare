@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RichTextEditor</id>
+    <version>8.2.0.3</version>
+    <title>Rich Text Editor for ASP.NET and MVC</title>
+    <authors>CuteSoft</authors>
+    <owners>CuteSoft</owners>
+    <projectUrl>http://richtexteditor.com/</projectUrl>
+    <iconUrl>http://richtexteditor.com/images/csslogo.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The next-generation online html editor is now available! Rich Text Editor for asp.net is by far the fastest, cleanest, most powerful online wysiwyg content editor. It's also available for PHP and ASP. 
+
+It enables asp.net web developers to replace any textbox/textarea with an intuitive word-like wysiwyg editor. 
+
+Rich Text Editor toolbar is completely configurable and it is also effortless to implement. You just need a couple lines of code to add this editor to .NET and MVC applications.</description>
+    <summary>The next-generation online html editor is now available! Rich Text Editor for asp.net is by far the fastest, cleanest, most powerful online wysiwyg content editor. It's also available for PHP and ASP.</summary>
+    <copyright>2016 richtexteditor.com. All rights reserved.</copyright>
+    <tags>Rich Text Editor  wysiwyg</tags>
+  </metadata>
+</package>

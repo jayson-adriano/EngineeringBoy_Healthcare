@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\EngineeringBoy_Healthcare.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\EngineeringBoy_Healthcare.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\EngineeringBoy_Healthcare.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\dllFiles.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\dllFiles.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\obj\Debug\EngineeringBoy_Healthcare.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\obj\Debug\EngineeringBoy_Healthcare.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\obj\Debug\EngineeringBoy_Healthcare.pdb
+C:\Users\user\documents\visual studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\NetSpell.SpellChecker.dll
+C:\Users\user\documents\visual studio 2013\Projects\EngineeringBoy_Healthcare\EngineeringBoy_Healthcare\bin\RichTextEditor.dll

@@ -1,0 +1,3286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\user\Documents\engHealth</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>11/29/2016 19:36:45</publishTime>
+    </File>
+    <File Include="AdminPage/HomeAdmin.aspx">
+      <publishTime>11/29/2016 18:58:04</publishTime>
+    </File>
+    <File Include="bin/dllFiles.dll">
+      <publishTime>11/30/2016 18:05:33</publishTime>
+    </File>
+    <File Include="bin/dllFiles.pdb">
+      <publishTime>11/30/2016 18:05:32</publishTime>
+    </File>
+    <File Include="bin/EngineeringBoy_Healthcare.dll">
+      <publishTime>11/30/2016 22:18:01</publishTime>
+    </File>
+    <File Include="bin/EngineeringBoy_Healthcare.pdb">
+      <publishTime>11/30/2016 22:18:01</publishTime>
+    </File>
+    <File Include="bin/NetSpell.SpellChecker.dll">
+      <publishTime>11/29/2016 19:18:27</publishTime>
+    </File>
+    <File Include="bin/RichTextEditor.dll">
+      <publishTime>11/29/2016 19:18:28</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>11/29/2016 19:47:46</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>11/26/2016 01:10:32</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>11/26/2016 01:10:32</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>11/26/2016 01:10:32</publishTime>
+    </File>
+    <File Include="DoctorFolder/DoctorMasterPage.Master">
+      <publishTime>11/26/2016 01:42:15</publishTime>
+    </File>
+    <File Include="DoctorFolder/MedicalAbstractDoctor.aspx">
+      <publishTime>11/29/2016 20:04:37</publishTime>
+    </File>
+    <File Include="DoctorFolder/MessageDoctor.aspx">
+      <publishTime>11/26/2016 02:50:58</publishTime>
+    </File>
+    <File Include="DoctorFolder/PrescriptionDoctor.aspx">
+      <publishTime>11/26/2016 02:50:58</publishTime>
+    </File>
+    <File Include="gulpfile.js">
+      <publishTime>11/23/2016 16:25:56</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>11/26/2016 02:28:55</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>11/26/2016 01:11:42</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>11/26/2016 01:11:43</publishTime>
+    </File>
+    <File Include="less/freelancer.less">
+      <publishTime>11/23/2016 16:25:55</publishTime>
+    </File>
+    <File Include="less/mixins.less">
+      <publishTime>11/23/2016 16:25:55</publishTime>
+    </File>
+    <File Include="less/variables.less">
+      <publishTime>11/23/2016 16:25:55</publishTime>
+    </File>
+    <File Include="LICENSE">
+      <publishTime>11/23/2016 16:25:56</publishTime>
+    </File>
+    <File Include="mail/contact_me.php">
+      <publishTime>11/23/2016 16:25:55</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>11/23/2016 16:25:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/29/2016 19:19:32</publishTime>
+    </File>
+    <File Include="PatientFolder/DeactivatePatient.aspx">
+      <publishTime>11/26/2016 10:51:29</publishTime>
+    </File>
+    <File Include="PatientFolder/DoctorInfoPage.aspx">
+      <publishTime>11/26/2016 10:48:42</publishTime>
+    </File>
+    <File Include="PatientFolder/FeedbackPatient.aspx">
+      <publishTime>11/26/2016 10:53:44</publishTime>
+    </File>
+    <File Include="PatientFolder/PatientAbstract.aspx">
+      <publishTime>11/26/2016 10:53:44</publishTime>
+    </File>
+    <File Include="PatientFolder/PatientChat.aspx">
+      <publishTime>11/26/2016 10:57:27</publishTime>
+    </File>
+    <File Include="PatientFolder/PatientMasterPage.Master">
+      <publishTime>11/26/2016 01:36:28</publishTime>
+    </File>
+    <File Include="PatientFolder/PrescriptionPatient.aspx">
+      <publishTime>11/30/2016 19:59:35</publishTime>
+    </File>
+    <File Include="PatientFolder/ProfilePatient.aspx">
+      <publishTime>11/26/2016 10:42:03</publishTime>
+    </File>
+    <File Include="pics/about.png">
+      <publishTime>11/26/2016 01:41:09</publishTime>
+    </File>
+    <File Include="pics/chat.jpg">
+      <publishTime>11/26/2016 01:43:06</publishTime>
+    </File>
+    <File Include="pics/contact.png">
+      <publishTime>11/26/2016 01:42:16</publishTime>
+    </File>
+    <File Include="pics/contact2.ico">
+      <publishTime>11/26/2016 01:42:31</publishTime>
+    </File>
+    <File Include="pics/doctorpage.jpg">
+      <publishTime>11/26/2016 01:49:26</publishTime>
+    </File>
+    <File Include="pics/feedback.png">
+      <publishTime>11/26/2016 01:41:48</publishTime>
+    </File>
+    <File Include="pics/front pic1.jpg">
+      <publishTime>11/26/2016 11:57:37</publishTime>
+    </File>
+    <File Include="pics/front pic2.jpg">
+      <publishTime>11/26/2016 01:59:09</publishTime>
+    </File>
+    <File Include="pics/front pic3.jpg">
+      <publishTime>11/26/2016 01:46:31</publishTime>
+    </File>
+    <File Include="pics/front pic4.jpg">
+      <publishTime>11/26/2016 01:47:20</publishTime>
+    </File>
+    <File Include="pics/prescription.jpg">
+      <publishTime>11/26/2016 01:44:17</publishTime>
+    </File>
+    <File Include="ReactivateAccount.aspx">
+      <publishTime>11/26/2016 02:27:05</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>11/30/2016 18:22:30</publishTime>
+    </File>
+    <File Include="richtexteditor/blank.htm">
+      <publishTime>11/29/2016 19:19:30</publishTime>
+    </File>
+    <File Include="richtexteditor/config/admin.config">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/config/default.config">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/config/guest.config">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/config/staticlinks.xml">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/config/staticstyles.xml">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/config/statictemplates.xml">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/core/core.js">
+      <publishTime>11/29/2016 19:19:29</publishTime>
+    </File>
+    <File Include="richtexteditor/core/jsml.js">
+      <publishTime>11/29/2016 19:19:28</publishTime>
+    </File>
+    <File Include="richtexteditor/core/jsml.xsx">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/scrollbar/default/barb_x.png">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/scrollbar/default/barb_y.png">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/scrollbar/default/bt_x.png">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/scrollbar/default/bt_y.png">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/scrollbar/default/fb_x.png">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/scrollbar/default/fb_y.png">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/core/uploader.js">
+      <publishTime>11/29/2016 19:19:26</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/basic_alert.xml">
+      <publishTime>11/29/2016 19:19:25</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/basic_confirm.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/basic_prompt.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/browsedialogbase.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/cleancode.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/colorpicker.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/editor_paste.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/findandreplace.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/foldertree.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/htmlpreview.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/imageeditor.xml">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/document.gif">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/dot_ring.png">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/insert_table_bg1.png">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/insert_table_bg2.png">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/tree_closed.gif">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/tree_opened.gif">
+      <publishTime>11/29/2016 19:19:24</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/images/url_icon.gif">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertanchor.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertdate.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertdocument.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertgallery.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertimage.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertimagemap.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertimagemaplink.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertlink.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertlink_dropdown.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertlink_findanchor.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertlink_findurl.xml">
+      <publishTime>11/29/2016 19:19:23</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/inserttable.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/inserttabletemplate.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/inserttemplate.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/inserttemplate_dropdown.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/insertvideo.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_context.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_context_default.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_context_minimal.xml">
+      <publishTime>11/29/2016 19:19:22</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_context_simple.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_dragdrop.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_styles.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/menu_tagitem.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/overriderename.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/phone_common.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/phone_format.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/phone_insert.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/phone_paragraph.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/phone_select.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/phone_text.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_background.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_block.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_border.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_box.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_font.xml">
+      <publishTime>11/29/2016 19:19:21</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_layout.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_list.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_other.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_position.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_style_table.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_a.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_audio.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_button.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_common.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_div.xml">
+      <publishTime>11/29/2016 19:19:20</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_form.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_input.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_select.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_table.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_textarea.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/properties_tag_video.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/setfontname.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/setfontsize.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/setparagraph.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/setstyles.xml">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/blue/blue-bg.gif">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/blue/blue-bg.png">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/blue/blue-close.gif">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/blue/blue-icon.png">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/Classic.gif">
+      <publishTime>11/29/2016 19:19:19</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/btm_center.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/btm_left.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/btm_right.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/top_center.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/top_left.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/classic/top_right.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/default/top.png">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/default/top_left.png">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/default/top_middle.png">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/default/top_right.png">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/Indigo.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/MacBlue.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/btm_center.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/btm_left.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/btm_right.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:18</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/top_center.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/top_left.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macblue/top_right.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/MacWhite.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/btm_center.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/btm_left.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/btm_right.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/top_center.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/top_left.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/macwhite/top_right.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/btm_center.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/btm_left.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/btm_right.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/closebtn.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/closebtn_over.gif">
+      <publishTime>11/29/2016 19:19:17</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/icon_dialog.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/top_center.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/top_left.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/newgreen/top_right.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/Normal.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/btm_center.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/btm_left.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/btm_right.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/top_center.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/top_left.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/normal/top_right.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/Royale.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/btm_center.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/btm_left.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/btm_right.gif">
+      <publishTime>11/29/2016 19:19:16</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/top_center.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/top_left.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/royale/top_right.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/btm_center.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/btm_center.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/btm_left.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/btm_left.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/btm_right.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/btm_right.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/close.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/mdl_left.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/mdl_left.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/mdl_right.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/mdl_right.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/top_center.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/top_center.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/top_left.gif">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/top_left.png">
+      <publishTime>11/29/2016 19:19:15</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/top_right.gif">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/skins/seven/top_right.png">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/storagelist.xml">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadinfo.xml">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress.xml">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/blocks.gif">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/circle.png">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/continuous.gif">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/progress.gif">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/resuming.gif">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/stop.png">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/uploaderror.png">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/uploading.gif">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/uploadprogress/uploadok.png">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/_developer.xml">
+      <publishTime>11/29/2016 19:19:25</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/_dialog.xml">
+      <publishTime>11/29/2016 19:19:25</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/_skins.xml">
+      <publishTime>11/29/2016 19:19:25</publishTime>
+    </File>
+    <File Include="richtexteditor/dialogs/__sample.xml">
+      <publishTime>11/29/2016 19:19:25</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/blank.htm">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/common.xml">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/downlevel.js">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/rtehtm.js">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/rtehtm.xml">
+      <publishTime>11/29/2016 19:19:14</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/rteubb.js">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/rteubb.xml">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/downlevel/style.css">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/help/fontname.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/help/fontsize.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/help/home.htm">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/help/paragraph.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/help/style.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/help/toolbar.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/accessibility.gif">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/all.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/anchor.gif">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/anchor.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/applystyles.png">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arj.gif">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arrow-l.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arrow-r.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arrow.gif">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arrow_down.gif">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arrow_r.gif">
+      <publishTime>11/29/2016 19:19:13</publishTime>
+    </File>
+    <File Include="richtexteditor/images/arrow_up.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/asa.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/asax.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ascx.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/asmx.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/asp.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/aspx.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/au.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/avi.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/b1.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/b1.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/backcolor.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/backspace.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/bat.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/bg.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/blank20.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/blockquote.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/bmp.gif">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/bold.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/borders.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/borders2.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/bottomline.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/box.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/break.png">
+      <publishTime>11/29/2016 19:19:12</publishTime>
+    </File>
+    <File Include="richtexteditor/images/bullist.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/cab.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/cell.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/center.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/checkbox.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/chm.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/cleanup.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/close.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/Close2.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/closedfolder.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/code.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/colorbox.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/com.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/copy.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/cs.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/css.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/cut.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/delcell.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/delcol.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/delete.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/delrow.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/design.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dir_ltr.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dir_ltr.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dir_rtl.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/disco.gif">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/div.png">
+      <publishTime>11/29/2016 19:19:11</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dll.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/doc.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/document.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/docx.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dragcopy.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dragmove.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/dropdownbox.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/edit.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/exe.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/external.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/filter_c.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/filter_l.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/filter_m.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/filter_r.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/find.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/fit.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/flash.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/flashholder.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/floatblock.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/floatleft.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/floatnone.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/floatright.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/flv.gif">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/folder.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/folders.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/folder_up.png">
+      <publishTime>11/29/2016 19:19:10</publishTime>
+    </File>
+    <File Include="richtexteditor/images/font-size.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/font-type.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/font.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/forecolor.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/formatcode.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/formatpainter.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/gallery.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/gif.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/groupbox.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/heading.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/help.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/hiddenfield.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/hlp.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/horizontal.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/htm.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/html.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/html5.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/htmlview.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/icon_add.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/image.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/imagebutton.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/imageeditor.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/imageholder.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ImageMap.png">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/inc.gif">
+      <publishTime>11/29/2016 19:19:09</publishTime>
+    </File>
+    <File Include="richtexteditor/images/indent.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ini.gif">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/inscell.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/inscol_l.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/inscol_r.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/insertDate.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/insertform.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/InsertPageBreak.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/inserttable.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/insrow_b.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/insrow_t.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/instable.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/italic.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/jpeg.gif">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/jpg.gif">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/justifyfull.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/justifynone.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/keyboard.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/l1.gif">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/l1.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/l2.gif">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/l2.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/layer.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/lcase.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/left.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/lineheight.png">
+      <publishTime>11/29/2016 19:19:08</publishTime>
+    </File>
+    <File Include="richtexteditor/images/link.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/listbox.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/loading3.gif">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/loading5.gif">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/locked.gif">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/log.gif">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/map.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/marginbottom.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/margintop.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mdb.gif">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/media.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/menuleft.gif">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mid.gif">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/midi.gif">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/minus.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mov.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/move.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/movieholder.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mp3.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mp4.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mpeg.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mpg.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/mrgcell.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/msgbox_alert.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_anchor.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_arrow_right-up.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_back.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_backcolor.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_blockquote.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_bold.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_borders.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_bottomline.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_break.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_center.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_cleanup.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_copy.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_cut.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_div.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_document.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_edit.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_find.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_font.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_fontsize.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_forecolor.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_groupbox.png">
+      <publishTime>11/29/2016 19:19:07</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_hand.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_help.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_image.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_indent.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_insertDate.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_insertdiv.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_insertpagebreak.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_italic.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_justifyfull.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_justifynone.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_lcase.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_left.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_link.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_map.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_media.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_menu.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_new.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_numlist.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_outdent.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_overline.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_paragraph.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_paste.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_pastetext.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_redo.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_return.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_right.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_rule.png">
+      <publishTime>11/29/2016 19:19:06</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_save.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_select.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_selectall.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_selectbottom.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_selectparagraph.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_selecttop.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_specialchar.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_spell.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_strike.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_subscript.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_superscript.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_table.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_text.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_topline.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_ucase.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_under.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_undo.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_unformat.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_upload.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/m_youtube.png">
+      <publishTime>11/29/2016 19:19:05</publishTime>
+    </File>
+    <File Include="richtexteditor/images/newdoc.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/newfolder.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/newtag.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/node-tree.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/noneditable.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/numdown.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/numlist.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/numup.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/openfolder.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/optionbutton.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/orderby.gif">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/outdent.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/overline.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/p.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/page.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/paragraph.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/parentfolder.png">
+      <publishTime>11/29/2016 19:19:04</publishTime>
+    </File>
+    <File Include="richtexteditor/images/passwordfield.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/paste.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/pastetext.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/pasteword.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/pdf.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/png.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ppt.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/preview.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/print.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/properties.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/pushbutton.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/r1.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/r1.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/r2.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/r2.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/rar.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/redo.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/refresh.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/removetag.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/reset.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ribbonpaste.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ribbontable.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/right.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/row.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/rtf.gif">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/rule.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ruler-horizontal.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ruler-vertical.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/rulercorner.png">
+      <publishTime>11/29/2016 19:19:03</publishTime>
+    </File>
+    <File Include="richtexteditor/images/save.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/selectall.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/selectnone.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/Separator.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/slider-handle-up.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/sort.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/sort_asc_arrow.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/sort_desc_arrow.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/specialchar.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/spell.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/spltcell.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/stop.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/strike.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/submit.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/subscript.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/superscript.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/swf.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/sys.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/t1.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/t1.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/t2.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/t2.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/t3.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/t3.png">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/tbdown.gif">
+      <publishTime>11/29/2016 19:19:02</publishTime>
+    </File>
+    <File Include="richtexteditor/images/template.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/textarea.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/textbox.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/timer.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/toolbarbutton.over.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/topline.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/txt.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ucase.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ul-circle.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ul-disc.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/ul-square.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/under.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/undo.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/unformat.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/unknown.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/unlink.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/unlocked.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/upload.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/uploadimage.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/vb.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/vbs.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/video.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/vsdisco.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/watermark.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/wav.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/wbr.png">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/wmv.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/wri.gif">
+      <publishTime>11/29/2016 19:19:01</publishTime>
+    </File>
+    <File Include="richtexteditor/images/xls.gif">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/images/xlsx.gif">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/images/xml.gif">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/images/youtube.png">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/images/zip.gif">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-da.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-de.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-es.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-fr.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-he.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-it.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-ja.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-ko.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-nl.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-no.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-pt.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-sv.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-zh-cn.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-zh-tw.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang-zh.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/lang.js">
+      <publishTime>11/29/2016 19:19:00</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-da.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-de.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-es.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-fr.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-he.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-it.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-ja.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-ko.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-nl.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-no.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-pt.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-sv.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-zh-cn.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-zh-tw.js">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more-zh.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/lang/more.js">
+      <publishTime>11/29/2016 19:18:59</publishTime>
+    </File>
+    <File Include="richtexteditor/player/flashplayer.swf">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/player/googleplayer.swf">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/player/play.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/player/player.htm">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/12close.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/12closered.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/arrow-l.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/arrow-r.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/close.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/corner.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/dot_ring.6.png">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/reset.gif">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/resizecorner.gif">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/images/url_icon.gif">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/controldesigner/plugin.xml">
+      <publishTime>11/29/2016 19:18:58</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/elementtoolbar/images/url_icon.gif">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/elementtoolbar/plugin.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/googlemap/googlemap.htm">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/googlemap/googlemap.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/googlemap/plugin.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/insertchars/plugin.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/insertyoutube/plugin.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/insertyoutube/youtube.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilehelper/plugin.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/common.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/debug.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/fontname.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/fontsize.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/format.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/12close.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/12closered.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/arrow-l.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/arrow-r.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/close.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/corner.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/dot_ring.6.png">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/reset.gif">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/resizecorner.gif">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/images/url_icon.gif">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/insert.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/insertform.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/insertlist.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/insertwhere.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/maincontrol.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/mainpoint.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/mainrange.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/paragraph.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/plugin.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/select.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/tagitem.xml">
+      <publishTime>11/29/2016 19:18:56</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/taglist.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/typetext.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/uploadimage.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/_dialog.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/mobilesidebar/__sample.xml">
+      <publishTime>11/29/2016 19:18:57</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/pageproperties/pageprops.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/pageproperties/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/resizecorner/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/resizecorner/resizecorner.gif">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/spellcheck/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/statistics/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/syntaxhighlighter/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/syntaxhighlighter/syntaxhighlighter.css">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/taglist/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/toolbar_code/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/toolbar_view/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/virtualkeyboard/plugin.xml">
+      <publishTime>11/29/2016 19:18:55</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/zoomview/plugin.xml">
+      <publishTime>11/29/2016 19:18:54</publishTime>
+    </File>
+    <File Include="richtexteditor/plugins/zoomview/zoomlist.xml">
+      <publishTime>11/29/2016 19:18:54</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/dialog.htm">
+      <publishTime>11/29/2016 19:18:54</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/DrawImage.html4.aspx">
+      <publishTime>11/29/2016 19:18:54</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/ImageEditorLib.js">
+      <publishTime>11/29/2016 19:18:54</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/back/group.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/back/list.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/back/menubar.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/back/toolbar.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/colorpicker.cur">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/colorpicker.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/composite_destinationin.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/composite_destinationout.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/composite_sourceover.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/composite_xor.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/copy.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/crop.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/cut.gif">
+      <publishTime>11/29/2016 19:18:53</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/delete.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/elli.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/erase.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/exchange.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/eye-visible.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/fliph.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/flipv.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/grad.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/grad_radial.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/image.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/layerstyle.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/line.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/new.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/paste.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/pattern/patt_1.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/pattern/patt_2.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/pen.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/point.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/rect.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/redo.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/resize.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/rotate.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/rotateleft90.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/rotateright90.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/save.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/scrollbar.gif">
+      <publishTime>11/29/2016 19:18:52</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/select.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/selectback.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/submenu.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/text.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/toolmerge.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/toolmoveup.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/transback.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/undo.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/zoom.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/zoomin.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/images/zoomout.gif">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/Language.aspx">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/language/en.js">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/language/en_us.js">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/language/zh_cn.js">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/menuimpl.js">
+      <publishTime>11/29/2016 19:18:51</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/refreshimage.aspx">
+      <publishTime>11/29/2016 19:18:50</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/SaveImage.html4.aspx">
+      <publishTime>11/29/2016 19:18:50</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint4/Style.css">
+      <publishTime>11/29/2016 19:18:50</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/adjust.xml">
+      <publishTime>11/29/2016 19:18:50</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/border.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/contextmenu.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/create.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/effect.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/layerproperty.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/submenu.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/addon/watermark.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/common.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/dialog.htm">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/dropdown/bool.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/dropdown/font.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/dropdown/fontfamily.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/dropdown/fontsize.xml">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/effect.js">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/font/AnandaNeptouch.ttf">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/font/AnandaNeptouch.woff">
+      <publishTime>11/29/2016 19:18:49</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/font/WorldWideWeb.woff">
+      <publishTime>11/29/2016 19:18:48</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/html5.js">
+      <publishTime>11/29/2016 19:18:48</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/html5ui.xml">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/accept.png">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/arc.png">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/arrow.png">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/back/group.gif">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/back/list.gif">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/back/menubar.gif">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/back/toolbar.gif">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/close.gif">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/colorpicker.cur">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/colorpicker.png">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/composite_destinationin.gif">
+      <publishTime>11/29/2016 19:18:47</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/composite_destinationout.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/composite_sourceover.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/composite_xor.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/crop.png">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/blur.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/bright.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/fog.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/grayscale.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/hsl.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/invert.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/mosaic.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/neon.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/pencil.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/relief.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_aqua.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_coldblue.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_coldgreen.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_concorde.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_elegant.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_fresh.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_indiglow.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_old.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_singe.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_softfocus.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sample_vivid.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sunshine.gif">
+      <publishTime>11/29/2016 19:18:46</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/sunshine.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/twovalue.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/effect/unsharp.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/erase.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/exchange.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/eye-visible.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/fill.cur">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/fill.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/fliph.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/flipv.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/font.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/font/anandaneptouch.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/font/worldwideweb.gif">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_1.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_10.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_2.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_20.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_3.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_30.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_4.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/brooch_40.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/fallleaf.png">
+      <publishTime>11/29/2016 19:18:45</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/fallleaf_1.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/fallleaf_2.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/fallleaf_3.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/fallleaf_4.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/greenflower.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/leaf.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_1.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_10.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_2.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_20.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_3.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_30.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_4.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/redline_40.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/frame/rope.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/freesize.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/free_b.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/free_l.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/free_r.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/free_t.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/grad.png">
+      <publishTime>11/29/2016 19:18:44</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/grad_radial.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/layerstyle.gif">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/line.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/loading.gif">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/adjust.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/copy.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/cut.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/effect.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/new.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/paste.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/redo.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/save.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menu/undo.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/menuleft.gif">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/pattern/patt_1.gif">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/pattern/patt_2.gif">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/pen.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/polygon.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/rect.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/redeye.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/resize.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/rotate.png">
+      <publishTime>11/29/2016 19:18:43</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/rotateleft90.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/rotateright90.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/scrollbar.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/select.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/stamp.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/star.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/submenu.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/tbdown.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/text.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/toolmerge.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/toolmoveup.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/toolnewlayer.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/toolopenfile.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/toolrecycle.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/transback.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/watermark/sample1.jpg">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/watermark/sample2.jpg">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/watermark/sample3.jpg">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/watermark/sample4.gif">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/watermark/sample5.jpg">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/zoom.png">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/zoomin.png">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/images/zoomout.png">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/Language.aspx">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/language/en.js">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/language/en_us.js">
+      <publishTime>11/29/2016 19:18:40</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/language/zh_cn.js">
+      <publishTime>11/29/2016 19:18:39</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/refreshimage.aspx">
+      <publishTime>11/29/2016 19:18:38</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/refreshimage.htm">
+      <publishTime>11/29/2016 19:18:38</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/tools.js">
+      <publishTime>11/29/2016 19:18:38</publishTime>
+    </File>
+    <File Include="richtexteditor/rtepaint5/uielement.xml">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/blank.htm">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/blankhtml4.htm">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/blankhtml5.htm">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/blankxhtml.htm">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/common.xml">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/config.js">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/editor.js">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/ihtml5.js">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/loader.js">
+      <publishTime>11/29/2016 19:18:37</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/rtefc.swf">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/scripts/tabview.js">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/colorpicker.htm">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/colorpicker.xml">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/colorpicker_basic.htm">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/colorpicker_more.htm">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/colorpicker_more_ie.htm">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/colorpicker_more_ns.htm">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/1x1.gif">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpie_Color.cur">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpie_GradientPositionDark.gif">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpie_GradientPositionLight.gif">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpie_gradients.png">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpie_VerticalPosition.gif">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpie_WebSafe.gif">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_Color.cur">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_ColorSpace1.png">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_ColorSpace2.png">
+      <publishTime>11/29/2016 19:18:36</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_GradientPositionDark.gif">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_GradientPositionLight.gif">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_gradients.png">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_hue2.png">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_Vertical1.png">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_Vertical2.png">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_VerticalPosition.gif">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/cpns_WebSafe.gif">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/formbn.gif">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/images/multiclavier.gif">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/insertchars.htm">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/insertchars.xml">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/Loader.aspx">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/ColorPicker_IE.css">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/ColorPicker_NS.css">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/dialog.css">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/Dialog_ColorPicker.js">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/Dialog_ColorPicker_IE.js">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/Dialog_ColorPicker_NS.js">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/insertchars.js">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/keyboard-data.js">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/keyboard-diacritic.js">
+      <publishTime>11/29/2016 19:18:35</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/keyboard-dialogue.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/keyboard-multihexa.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushCpp.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushCSharp.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushCss.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushDelphi.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushJava.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushJScript.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushPhp.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushPython.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushRuby.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushSql.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushVb.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shBrushXml.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/shCore.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/sh_Core.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/spell.css">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/spell.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/resx/virtualkeyboard.js">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/SpellCheck.aspx">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/spellcheck.xml">
+      <publishTime>11/29/2016 19:18:34</publishTime>
+    </File>
+    <File Include="richtexteditor/server/syntaxhighlighter.htm">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/server/syntaxhighlighter.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/server/virtualkeyboard.htm">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/server/virtualkeyboard.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2003/skin.css">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2003/skin.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2003/toolbar_custom.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2003/toolbar_template.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2007/skin.css">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2007/skin.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2007/toolbar_custom.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2007/toolbar_template.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2010/skin.css">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2010/skin.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2010/toolbar_custom.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/office2010/toolbar_template.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/officexp/skin.css">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/officexp/skin.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/officexp/toolbar_custom.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/officexp/toolbar_template.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/phone/skin.css">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/phone/skin.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/phone/toolbar_phone.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/phone/_layout.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/smart/skin.css">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/smart/skin.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/smart/toolbar_custom.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/smart/toolbar_template.xml">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/_shared/_layout.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/skins/_shared/_toolbartemplate.xml">
+      <publishTime>11/29/2016 19:18:33</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/formbn.gif">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/horizontal.start.gif">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/menuleft.gif">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/pagebreak.gif">
+      <publishTime>11/29/2016 19:18:32</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbimage_clicked.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbimage_hovered.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbimage_silver2003_clicked.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbimage_silver2003_hovered.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rblabel_blue.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbribbon_black.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbribbon_blue.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbribbon_silver.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbribbon_silver2.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbribbon_silver2003.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/rbribbon_silver2010.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/separator.gif">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbcontrol_checked.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbcontrol_clicked.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbcontrol_hovered.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbcontrol_silver2_checked.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbcontrol_silver2_clicked.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbcontrol_silver2_hovered.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_blue.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_blue2010.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_darkblue.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_silver.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_silver2.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_silver20032.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbgroup_silver2007.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_black.png">
+      <publishTime>11/29/2016 19:18:31</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_blue.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_lightblue.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_lightsilver.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_silver2.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_silver2003.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_silver2007.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbribbon_silver2010.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbtoolbar_blue.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbtoolbar_silver.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbtoolbar_silver2.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/images/tbtoolbar_silver20032.png">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/richtexteditor.css">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/tabcode.css">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/tabedit.css">
+      <publishTime>11/29/2016 19:18:30</publishTime>
+    </File>
+    <File Include="richtexteditor/styles/tabview.css">
+      <publishTime>11/29/2016 19:18:29</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.15.0-build58334.js">
+      <publishTime>11/23/2016 18:21:32</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>11/23/2016 18:21:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/23/2016 18:20:07</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/23/2016 18:20:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/23/2016 18:20:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/23/2016 18:20:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>11/23/2016 18:20:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.js">
+      <publishTime>11/23/2016 18:21:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>11/23/2016 18:21:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.map">
+      <publishTime>11/23/2016 18:21:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.11.4.js">
+      <publishTime>11/23/2016 18:21:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.11.4.min.js">
+      <publishTime>11/23/2016 18:21:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/23/2016 18:21:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/23/2016 18:21:33</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>11/23/2016 18:20:08</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>11/23/2016 18:20:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>11/23/2016 18:20:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>11/23/2016 18:20:11</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>11/23/2016 18:20:11</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>11/23/2016 18:20:11</publishTime>
+    </File>
+    <File Include="SessionExpired.aspx">
+      <publishTime>11/25/2016 00:32:52</publishTime>
+    </File>
+    <File Include="Unregistered.Master">
+      <publishTime>11/26/2016 02:01:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/30/2016 22:18:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

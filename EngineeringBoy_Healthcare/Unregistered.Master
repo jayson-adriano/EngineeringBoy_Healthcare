@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Unregistered.master.cs" Inherits="EngineeringBoy_Healthcare.Unregistered" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <title>EngineeringBoy Healthcare</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+
+    <link href="../Slides-SlidesJS-3/examples/playing/css/slider.css" rel="stylesheet" />
+
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../Home.aspx">ENG'GBOY</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../About.aspx">ABOUT</a></li>
+                    <li><a href="../contact.aspx">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--END NAV SECTION -->
+    <!-- HOME SECTION -->
+
+    <!-- SLIDER SECTION -->
+    <div id="slides">
+        <img src="../pics/front pic2.jpg" alt="" />
+    </div>
+    <!-- END SLIDER SECTION -->
+
+    <div class="container">
+        <form id="main" runat="server">
+            <div style="height: 124px">
+                <asp:ContentPlaceHolder ID="mainBody" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </form>
+          </div>
+    <div class="space-bottom"></div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../Slides-SlidesJS-3/examples/playing/js/jquery.slides.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#slides').slidesjs({
+                width: 940,
+                height: 528,
+                play: {
+                    active: true,
+                    auto: true,
+                    interval: 4000,
+                    swap: true
+                }
+            });
+        });
+
+    </script>
+
+</body>
+</html>

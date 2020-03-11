@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Unregistered.master.cs" Inherits="EngineeringBoy_Healthcare.Unregistered" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>EngineeringBoy Healthcare</title>
+    <!--GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!--BOOTSTRAP MAIN STYLES -->
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <!--FONTAWESOME MAIN STYLE -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+    <!--SLIDER CSS CLASES -->
+    <link href="../Slides-SlidesJS-3/examples/playing/css/slider.css" rel="stylesheet" />
+    <!--CUSTOM STYLE -->
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../Home.aspx">ENG'GBOY</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../About.aspx">ABOUT</a></li>
+                    <li><a href="../contact.aspx">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--END NAV SECTION -->
+    <!-- HOME SECTION -->
+
+    <!-- SLIDER SECTION -->
+    <div id="slides">
+        <img src="../pics/front pic4.jpg" alt="" />
+        <img src="../pics/front pic1.jpg" alt="" />
+        <img src="../pics/front pic3.jpg" alt="" />
+        <img src="../pics/front pic2.jpg" alt="" />
+
+    </div>
+    <!-- END SLIDER SECTION -->
+
+    <div class="container">
+        <form id="main" runat="server">
+            <div style="height: 124px">
+                <asp:ContentPlaceHolder ID="mainBody" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </form>
+        <%--        <div class="row main-low-margin text-center">
+            <div class="col-md-4 col-sm-4">
+                <div class="circle-body"><i class="fa fa-camera fa-5x  icon-set"></i></div>
+                <h3>TESTED DESIGN</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="circle-body"><i class="fa fa-dollar fa-5x  icon-set"></i></div>
+                <h3>SAVE YOUR MONEY</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="circle-body"><i class="fa fa-envelope fa-5x  icon-set"></i></div>
+                <h3>WELL DOCUMENTED</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+            </div>
+
+        </div>
+        <div class="row main-low-margin ">
+
+            <div class="col-md-8 col-sm-8">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+            </div>
+
+            <div class="col-md-4 col-sm-4 text-center">
+                <img class="img-circle" src="assets/img/person.png">
+                <h3>Lorem ipsum dolor</h3>
+                <h4>Lorem ipsum dolor sit</h4>
+
+            </div>
+        </div>
+        <div class="row main-low-margin ">
+            <div class="col-md-3 col-sm-3 text-center">
+                <i class="fa fa-desktop fa-5x"></i>
+                <h3>TESTED DESIGN</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <i class="fa fa-comments-o fa-5x "></i>
+                <h3>READY TO USE</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                </p>
+
+            </div>
+
+        </div>--%>
+    </div>
+    <div class="space-bottom"></div>
+    <!--END HOME SECTION -->
+    <!--FOOTER SECTION -->
+
+    <%--    <div id="footer">
+        <div class="row" style="text-align:center">
+            2014 www.yourdomain.com | All Right Reserved
+        </div>
+    </div>--%>
+    <!--END FOOTER SECTION -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY LIBRARY -->
+    <script src="../js/jquery.js"></script>
+    <!-- CORE BOOTSTRAP LIBRARY -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- SLIDER SCRIPTS LIBRARY -->
+    <script src="../Slides-SlidesJS-3/examples/playing/js/jquery.slides.min.js"></script>
+    <!-- CUSTOM SCRIPT-->
+    <script>
+        $(document).ready(function () {
+            $('#slides').slidesjs({
+                width: 940,
+                height: 528,
+                play: {
+                    active: true,
+                    auto: true,
+                    interval: 4000,
+                    swap: true
+                }
+            });
+        });
+
+    </script>
+
+</body>
+</html>
